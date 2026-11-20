@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "营地工具 — OurGamesCamp",
+    "description": "浏览 OurGamesCamp 营地入口、页面文案说明和 HTTP 102 状态码说明。"
+  },
+  "hero": {
+    "eyebrow": "营地工具箱",
+    "titleFirst": "少绕一点路，",
+    "titleAccent": "直接开玩。",
+    "description": "从这里快速前往营地的不同区域，也可以看看本站页面文案是如何组织和载入的。",
+    "scroll": "浏览营地入口"
+  },
+  "directory": {
+    "eyebrow": "QUICK ACCESS / 快捷入口",
+    "title": "营地入口",
+    "description": "每个入口都通向一段不同的游戏旅程。"
+  },
+  "cards": [
+    {
+      "index": "01",
+      "tag": "HOME / 营地",
+      "title": "回到营地",
+      "description": "看看 OurGamesCamp 的主页，开启探索。",
+      "link": "进入首页"
+    },
+    {
+      "index": "02",
+      "tag": "ABOUT / 关于",
+      "title": "认识我们的想法",
+      "description": "了解 OurGamesCamp 为什么想为玩家搭建一个营地。",
+      "link": "关于 OGC"
+    },
+    {
+      "index": "03",
+      "tag": "HTTP / 102",
+      "title": "Processing 是什么？",
+      "description": "查看 HTTP 102 Processing 状态码的简短说明。",
+      "link": "阅读状态说明"
+    }
+  ],
+  "content": {
+    "eyebrow": "CONTENT / TXT",
+    "title": "页面文案，",
+    "titleAccent": "从文件中来。",
+    "description": "页面文字分别保存在 Resources/txt 下的 JSON 文案文件中。页面加载时由共享脚本读取并填入对应位置；更新文案时，不必在 HTML 结构里逐处查找。",
+    "filesLabel": "按页面整理",
+    "files": "index web · ogc web · about web · tools web · system web"
+  }
+}

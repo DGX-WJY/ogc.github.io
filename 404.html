@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#080b10">
+    <meta name="robots" content="noindex">
+    <meta name="description" data-copy="meta.description" data-copy-attribute="content" content="">
+    <title data-copy="meta.title"></title>
+    <link rel="icon" href="/Resources/img/OGC.webp" type="image/webp">
+    <link rel="stylesheet" href="/styles/General%20Style.css">
+    <link rel="stylesheet" href="/styles/pages%20styles/system/status.css">
+    <script src="/styles/General%20Style.js" defer></script>
+    <script src="/styles/pages%20styles/system/status.js" defer></script>
+</head>
+<body data-site-copy="/Resources/txt/site.json" data-page-copy="/Resources/txt/system%20web/404.json" data-copy-state="loading">
+    <div class="copy-loading" aria-hidden="true"><span class="copy-loading__spinner"></span></div>
+    <div class="copy-error" data-copy-error role="alert" hidden>页面文案无法载入，请检查网络连接后刷新页面。</div>
+    <div class="site-shell">
+        <header class="site-header">
+            <a class="brand" href="/view/ogc.html" data-copy="common.brand.logoAlt" data-copy-attribute="aria-label">
+                <img src="/Resources/img/OGC.webp" alt="" width="42" height="42">
+                <span class="brand__name" data-copy="common.brand.short"></span>
+                <span class="brand__full" data-copy="common.brand.full"></span>
+            </a>
+            <a class="site-domain" href="https://www.ogc.l2.ink/">
+                <span class="site-domain__dot" aria-hidden="true"></span><span data-copy="common.domain"></span>
+            </a>
+            <nav class="site-nav" data-copy="common.nav.label" data-copy-attribute="aria-label">
+                <a class="site-nav__link" href="/view/ogc.html" data-copy="common.nav.home"></a>
+                <a class="site-nav__link" href="/view/ogc.html#camp" data-copy="common.nav.camp"></a>
+                <a class="site-nav__link" href="/view/about.html" data-copy="common.nav.about"></a>
+                <a class="site-nav__link" href="/view/tools.html" data-copy="common.nav.tools"></a>
+            </nav>
+            <a class="header-cta" href="/view/ogc.html"><span data-copy="common.nav.home"></span><span aria-hidden="true">↗</span></a>
+        </header>
+
+        <main class="status-page">
+            <section class="status-panel" aria-labelledby="status-title">
+                <p class="eyebrow" data-copy="page.eyebrow"></p>
+                <span class="status-code" data-copy="page.code" aria-hidden="true"></span>
+                <h1 id="status-title"><span data-copy="page.titleFirst"></span><br><span class="status-panel__accent" data-copy="page.titleAccent"></span></h1>
+                <p class="status-panel__description" data-copy="page.description"></p>
+                <section class="live-status live-status--details" data-live-panel="availability" aria-labelledby="live-status-title">
+                    <div class="live-status__heading">
+                        <h2 id="live-status-title" data-copy="page.live.title"></h2>
+                        <span class="live-status__badge" data-live-value="summary-badge"><span class="live-status__dot" aria-hidden="true"></span><span data-live-value="summary" data-copy="page.live.checking" role="status" aria-live="polite"></span></span>
+                    </div>
+                    <dl class="live-status__details">
+                        <div><dt data-copy="page.live.timeLabel"></dt><dd><time data-live-value="clock" aria-live="off"></time></dd></div>
+                        <div><dt data-copy="page.live.pathLabel"></dt><dd><code data-live-value="path"></code></dd></div>
+                        <div><dt data-copy="page.live.responseLabel"></dt><dd><span class="live-status__response" data-live-value="response-status"></span></dd></div>
+                    </dl>
+                    <h3 class="live-status__section-title" data-copy="page.live.checksTitle"></h3>
+                    <ul class="live-status__list" data-live-value="checks" aria-live="polite"></ul>
+                    <p class="live-status__updated"><span data-copy="page.live.updatedLabel"></span><time data-live-value="updated" aria-live="off">—</time></p>
+                    <p class="live-status__note" data-copy="page.live.note"></p>
+                </section>
+                <div class="status-panel__actions">
+                    <a class="button button--primary" href="/view/ogc.html"><span data-copy="page.homeButton"></span><span aria-hidden="true">↗</span></a>
+                    <a class="button" href="/view/tools.html" data-copy="page.toolsButton"></a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <a class="brand" href="/view/ogc.html" data-copy="common.brand.logoAlt" data-copy-attribute="aria-label">
+                <img src="/Resources/img/OGC.webp" alt="" width="34" height="34">
+                <span class="brand__name" data-copy="common.brand.short"></span>
+            </a>
+            <p data-copy="common.footer.tagline"></p>
+            <span class="site-footer__copyright" data-copy="common.footer.copyright"></span>
+            <a class="site-footer__domain" href="https://www.ogc.l2.ink/"><span data-copy="common.domain"></span><span aria-hidden="true">↗</span></a>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "OurGamesCamp — 属于玩家的线上营地",
+    "description": "在 OurGamesCamp 发现游戏灵感，分享热爱，和同好开启下一场冒险。"
+  },
+  "hero": {
+    "eyebrow": "属于玩家的线上营地",
+    "titleFirst": "把热爱，",
+    "titleAccent": "带进营地。",
+    "description": "OurGamesCamp 为游戏玩家留一块自在相聚的地方。探索新灵感、分享游戏故事，让每一次开玩都有新的可能。",
+    "primary": "探索营地",
+    "secondary": "认识 OurGamesCamp",
+    "footnote": "这里没有旁观者，只有下一场冒险的队友。",
+    "artAlt": "帐篷与像素星光组成的 OurGamesCamp 营地徽标",
+    "artBadge": "玩家集合点",
+    "artLine": "PLAY / CREATE / CONNECT",
+    "artChip": "CAMP 001",
+    "scroll": "向下探索"
+  },
+  "intro": {
+    "eyebrow": "找到你的游戏节奏",
+    "titleFirst": "每一种热爱，",
+    "titleAccent": "都能找到队友。",
+    "description": "从独自探索到并肩开黑，从灵光一闪到动手创造——这里为游戏旅程中的每一种状态，留出一点空间。"
+  },
+  "features": [
+    {
+      "tag": "01 / PLAY",
+      "title": "发现下一场冒险",
+      "description": "为想玩的游戏、想试的玩法和下一次新发现，留一份清单。"
+    },
+    {
+      "tag": "02 / CREATE",
+      "title": "把灵感搭成营地",
+      "description": "攻略、地图、模组或脑洞，让游戏之外的创造也有自己的舞台。"
+    },
+    {
+      "tag": "03 / CONNECT",
+      "title": "和同好并肩出发",
+      "description": "遇见兴趣相投的玩家，把一个人的热爱变成一群人的故事。"
+    }
+  ],
+  "cta": {
+    "eyebrow": "营地正在等你",
+    "title": "下一场冒险，",
+    "titleAccent": "一起出发。",
+    "description": "认识 OurGamesCamp，看看这里如何把游戏、创造与玩家连接在一起。",
+    "button": "了解营地"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "OurGamesCamp — 游戏开场，营地集合",
+    "description": "欢迎来到 OurGamesCamp，和游戏同好一起探索、创造、连接。"
+  },
+  "loading": {
+    "eyebrow": "欢迎来到 OurGamesCamp",
+    "titleFirst": "游戏开场，",
+    "titleAccent": "营地集合。",
+    "status": "正在载入营地内容…",
+    "readyStatus": "准备完成，即将进入营地…",
+    "hint": "正在连接游戏营地",
+    "continue": "直接进入营地",
+    "logoAlt": "OGC 标志"
+  }
+}

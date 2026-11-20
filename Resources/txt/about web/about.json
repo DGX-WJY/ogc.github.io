@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "关于 OurGamesCamp — 我们的营地",
+    "description": "了解 OurGamesCamp 的想法：让游戏热爱有地方分享，让玩家更容易相遇。"
+  },
+  "hero": {
+    "eyebrow": "关于我们的营地",
+    "titleFirst": "为热爱游戏的人，",
+    "titleAccent": "留一块营地。",
+    "description": "OurGamesCamp，简称 OGC。我们相信游戏不止是通关，也是一种创造、分享和相遇的方式。",
+    "asideLabel": "OUR MISSION / 01",
+    "asideText": "让每一份游戏热爱，都有机会遇见同路人。",
+    "asideAction": "看看营地想法"
+  },
+  "story": {
+    "eyebrow": "我们想做什么",
+    "titleFirst": "好玩的不止游戏，",
+    "titleAccent": "还有一起玩的人。",
+    "paragraphOne": "每个玩家都有自己的世界：有人寻找新的冒险，有人研究玩法和细节，也有人享受把创意做出来的过程。OurGamesCamp 希望成为这些故事交汇的地方。",
+    "paragraphTwo": "我们正在搭建一个以玩家为中心的线上营地，让探索、创造与交流都能被看见。这里的每一份内容，都从对游戏的热爱出发。",
+    "link": "回到营地首页"
+  },
+  "values": {
+    "eyebrow": "营地守则",
+    "titleFirst": "一起玩，",
+    "titleAccent": "一起变有趣。",
+    "cards": [
+      {
+        "index": "01",
+        "title": "保持好奇",
+        "description": "愿意尝试新游戏、新玩法，也认真听听别人喜欢什么。"
+      },
+      {
+        "index": "02",
+        "title": "乐于创造",
+        "description": "把想法做出来，把经验分享出来，让热爱留下痕迹。"
+      },
+      {
+        "index": "03",
+        "title": "尊重队友",
+        "description": "不同的玩法与观点都值得被尊重，好的营地由每个人共同搭建。"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "PLAY · CREATE · CONNECT",
+    "title": "准备好加入",
+    "titleAccent": "下一场冒险了吗？",
+    "button": "返回首页"
+  }
+}

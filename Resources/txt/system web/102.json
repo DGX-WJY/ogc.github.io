@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "HTTP 102 Processing — OurGamesCamp",
+    "description": "HTTP 102 Processing 状态码说明。"
+  },
+  "page": {
+    "eyebrow": "HTTP INFORMATIONAL / 协议信息",
+    "code": "102",
+    "title": "Processing",
+    "descriptionOne": "HTTP 102 是一个临时的信息响应，表示服务器已收到请求，但仍在处理过程中。它不是最终的成功或错误结果，后续还会有最终响应。",
+    "descriptionTwo": "下方状态来自当前浏览器对本站页面发起的真实 HTTP 检查，并会定时刷新；它反映你当前网络的访问结果。",
+    "live": {
+      "title": "站点实时可用性",
+      "checking": "正在连接本站页面…",
+      "error": "无法启动状态监测，请刷新页面重试。",
+      "checksTitle": "页面检查",
+      "updatedLabel": "最近检测：",
+      "note": "检查由当前浏览器每 30 秒发起一次；结果只代表当前网络与访问节点，不是全球监控。"
+    },
+    "toolsButton": "返回营地工具",
+    "homeButton": "回到首页"
+  }
+}

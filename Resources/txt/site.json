@@ -1,0 +1,47 @@
+{
+  "common": {
+    "brand": {
+      "short": "OGC",
+      "full": "OurGamesCamp",
+      "tagline": "PLAY · CREATE · CONNECT",
+      "logoAlt": "OGC 标志"
+    },
+    "domain": "www.ogc.l2.ink",
+    "nav": {
+      "label": "主导航",
+      "home": "首页",
+      "camp": "游戏营地",
+      "about": "关于我们",
+      "tools": "营地工具",
+      "visit": "进入营地"
+    },
+    "footer": {
+      "tagline": "为游戏热爱者，搭建一座线上营地。",
+      "copyright": "© {year} OurGamesCamp"
+    },
+    "statusMonitor": {
+      "intervalSeconds": 30,
+      "timeoutMs": 8000,
+      "checks": [
+        { "name": "营地首页", "path": "/view/ogc.html" },
+        { "name": "关于页面", "path": "/view/about.html" },
+        { "name": "工具箱页面", "path": "/view/tools.html" },
+        { "name": "HTTP 102 页面", "path": "/view/102.html" }
+      ],
+      "states": {
+        "checking": "正在检测",
+        "online": "全部页面可访问",
+        "partial": "部分页面不可访问",
+        "offline": "页面均无法访问",
+        "available": "可访问",
+        "unavailable": "不可访问",
+        "responseCode": "HTTP {code}",
+        "responseOk": "当前页面正常响应",
+        "responseNotFound": "当前请求返回 404",
+        "responseOther": "当前请求返回异常状态",
+        "responseUnavailable": "浏览器未提供响应码"
+      }
+    },
+    "copyError": "页面文案暂时无法载入，请检查网络连接后刷新页面。"
+  }
+}
